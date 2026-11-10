@@ -21,4 +21,4 @@ jobs:
       - run: npm ci
       - run: npm run typecheck
 
-      - run: npx remotion render src/index.tsx out.mp4 --compose
+      - run: npx remotion render src/index.tsx MaxAndTheMoment out.mp4 --log=error

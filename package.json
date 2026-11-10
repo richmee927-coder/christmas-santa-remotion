@@ -5,6 +5,8 @@
   "description": "What If animation studio: one topic line in, a finished 15-25 s episode out. Every frame is SVG drawn in code (Remotion).",
   "scripts": {
     "studio": "remotion studio src/index.tsx --port 3430",
+    "render": "remotion render src/index.tsx MaxAndTheMoment out/max-and-the-moment.mp4",
+    "render:gh": "remotion render src/index.tsx MaxAndTheMoment out/max-and-the-moment-test.mp4 --log=error",
     "typecheck": "tsc --noEmit"
   },
   "dependencies": {
